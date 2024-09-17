@@ -1,0 +1,21 @@
+language: go
+
+go:
+  - 1.23.1
+
+env:
+  - GO111MODULE=on
+
+branches:
+  only:
+    - master
+
+dist: bionic
+
+script:
+  - go get -u ./...
+  - go test -v github.com/alkuma/tokenizer/normalizer
+  - go test -v github.com/alkuma/tokenizer/model/bpe
+  - go test -v github.com/alkuma/tokenizer/model/wordpiece
+  - go test -v github.com/alkuma/tokenizer/pretokenizer
+  - go test -v github.com/alkuma/tokenizer

@@ -15,8 +15,8 @@ import (
 	"sync"
 
 	"github.com/schollz/progressbar/v3"
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/pretrained"
+	"github.com/alkuma/tokenizer"
+	"github.com/alkuma/tokenizer/pretrained"
 	ort "github.com/yalue/onnxruntime_go"
 )
 
