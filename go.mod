@@ -1,4 +1,4 @@
-module github.com/anush008/fastembed-go
+module github.com/alkuma/fastembed-go
 
 go 1.23.1
 

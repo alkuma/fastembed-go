@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	fastembed "github.com/anush008/fastembed-go"
+	fastembed "github.com/alkuma/fastembed-go"
 )
 
 func TestCanonicalValues(t *testing.T) {
